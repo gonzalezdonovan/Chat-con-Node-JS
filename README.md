@@ -34,13 +34,12 @@ El historial de mensajes se guarda en un archivo JSON, por lo que persiste inclu
 
 ## Estructura del proyecto
 
-│
-├── client/
-│ └── index.html
-├── messages.json
-├── index.js
-├── package.json
-└── README.md
+- client
+ -  index.html
+- messages.json
+- index.js
+- package.json
+- README.md
 
 ---
 
@@ -49,6 +48,7 @@ El historial de mensajes se guarda en un archivo JSON, por lo que persiste inclu
 1. Clonar o descargar el repositorio  
 2. Abrir una terminal dentro de la carpeta raíz  
 3. Instalar dependencias
+4. Tambien puede ingresar desde el siguiente link: https://chat-con-node-js.onrender.com/?authuser=1
 
 ---
 
@@ -60,4 +60,5 @@ Este proyecto está inspirado y basado en el siguiente video:
 
 ## Autor
 **Donovan Yanci Díaz González**  
+
 Estudiante de programación
