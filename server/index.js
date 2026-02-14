@@ -10,9 +10,11 @@ const server = createServer(app)
 
 const io = new Server(server, {
   cors: {
-    origin: "*"
+    origin: "*",
+    methods: ["GET", "POST"]
   }
 })
+
 
 const port = process.env.PORT || 3000
 
@@ -35,6 +37,9 @@ io.on('connection', (socket) => {
 
     
     socket.emit('chat history', messages)
+
+    console.log("Socket conectado:", socket.id)
+
 
     socket.on('register', (username) => {
         socket.username = username
