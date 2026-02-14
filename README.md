@@ -34,13 +34,12 @@ El historial de mensajes se guarda en un archivo JSON, por lo que persiste inclu
 
 ## Estructura del proyecto
 
-│
-├── client/
-│ └── index.html
-├── messages.json
-├── index.js
-├── package.json
-└── README.md
+- client/
+  - index.html
+- messages.json
+- index.js
+- package.json
+- README.md
 
 ---
 
@@ -60,4 +59,5 @@ Este proyecto está inspirado y basado en el siguiente video:
 
 ## Autor
 **Donovan Yanci Díaz González**  
+
 Estudiante de programación
