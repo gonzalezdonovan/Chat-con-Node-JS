@@ -4,7 +4,12 @@ import { Server } from 'socket.io'
 import { createServer } from 'node:http'
 import fs from 'fs'
 
-const port = process.env.PORT ?? 3000
+const port = process.env.PORT || 3000
+
+server.listen(port, () => {
+  console.log(`Server running on port ${port}`)
+})
+
 const app = express()
 const server = createServer(app)
 const io = new Server(server)
